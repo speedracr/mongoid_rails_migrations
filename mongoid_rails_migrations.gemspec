@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   rails_version = '>= 4.2.0'
 
   s.add_runtime_dependency('bundler', '>= 1.0.0')
-  s.add_runtime_dependency('mongoid', '>= 4.0.0')
+  s.add_runtime_dependency('mongoid', '>= 5.1.0')
   s.add_runtime_dependency('rails',  rails_version)
   s.add_runtime_dependency('railties',  rails_version)
   s.add_runtime_dependency('activesupport',  rails_version)
